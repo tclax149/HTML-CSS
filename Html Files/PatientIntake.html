@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+</head>
+
+<body>
+    <form>
+        <h1>Patient Information</h1>
+
+        <label for="firstName">Patient First Name</label>
+        <input type="text" id="firstName" />
+
+        <label for="middleName">Patient Middle Name</label>
+        <input type="text" id="middleName" />
+
+        <label for="LastName">Patient Last Name</label>
+        <input type="text" id="lastName" />
+
+        <label for="PrefferedName">Preferred Name</label>
+        <input type="text" id="lastName" />
+
+
+        </br>
+
+        <fieldset>
+            <legend>Sex</legend>
+            <label for="Male">Male</label>
+            <input id="Male" type="radio" name="Male" value="Male" />
+
+            <label for="Female">Female</label>
+            <input id="Female" type="radio" name="Female" value="Female" />
+
+            <label for="Other">Other</label>
+            <input id="Other" type="radio" name="Other" value="Other" />
+        </fieldset>
+        </br>
+
+        <label for="ssn">Social Security Number:</label>
+        <input type="text" id="ssn" name="ssn" maxlength="11" placeholder="XXX-XX-XXXX" pattern="\d{3}-d{2}-\d{4}" />
+
+        <label for="DOB">Date of Birth</label>
+        <input type="date" id="DOB" />
+
+        </br>
+        <hr />
+        </br>
+
+        <label for="phone">Primary Number</label>
+        <input type="tel" id="phone" placeholder="(000)000-0000" />
+
+        <label for="phone">Cell Number</label>
+        <input type="tel" id="phone" placeholder="(000)000-0000" />
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="@" />
+
+        </br>
+        <hr />
+        </br>
+
+        <label for="address">Address</label>
+        <input type="text" id="address" placeholder="address" />
+
+        <label for="addressTwo">Address 2</label>
+        <input type="text" id="addressTwo" placeholder="address" />
+
+        <label for="city">City</label>
+        <input type="text" id="city" placeholder="city" />
+
+        <label for="state">State</label>
+        <input type="text" id="state" placeholder="state" />
+
+        <label for="zip">Zip</label>
+        <input type="zip" id="zip" placeholder="zip" />
+
+        </br>
+        <hr />
+        </br>
+
+        <label for="emergencyFirstName">Emergency Contact First Name</label>
+        <input type="text" id="emergencyFirstName" placeholder="Emergency Contact First Name" />
+
+        <label for="emergencyLastName">Emergency Contact Last Name</label>
+        <input type="text" id="emergencyLastName" placeholder="Emergency Contact Last Name" />
+
+        <label for="emergencyPhone">Emergency Contact Phone</label>
+        <input type="tel" id="emergencyPhone" placeholder="(000)000-0000" />
+
+        <label for="emergencyRelationship">Emergency Contact Relationship</label>
+        <input type="text" id="emergencyRelationship" placeholder="Emergency Contact Relationship" />
+
+        </br>
+        <hr />
+        </br>
+
+        <label for="occupation">Occupation</label>
+        <input type="text" id="occupation" />
+
+        <label for="position">Position</label>
+        <input type="text" id="position" />
+
+        <label for="employmentType">Employment Type</label>
+        <select id="employmentType" name="employmentType">
+            <option value="" disabled selected></option>
+            <option value="option1">Part Time</option>
+            <option value="option2">Full Time</option>
+        </select>
+
+        <label for="employername">Employer Name</label>
+        <input type="text" id="employername" />
+
+        <label for="workphone">Work Phone</label>
+        <input type="tel" id="workphone" />
+
+        </br>
+        <hr />
+        </br>
+
+        <label for="workaddress">Work Address</label>
+        <input type="workaddress" id="workaddress" placeholder="address" />
+
+        <label for="workaddressTwo">Address 2</label>
+        <input type="text" id="workaddressTwo" placeholder="address" />
+
+        <label for="workcity">City</label>
+        <input type="text" id="workcity" placeholder="city" />
+
+        <label for="workstate">State</label>
+        <input type="text" id="workstate" placeholder="state" />
+
+        <label for="workzip">Zip</label>
+        <input type="workzip" id="workzip" placeholder="zip" />
+
+        <fieldset>
+            <legend>Do you have insurance</legend>
+            <label for="yes">Yes</label>
+            <input id="yes" type="radio" name="yes" value="yes" />
+
+            <label for="no">No</label>
+            <input id="no" type="radio" name="no" value="no" />
+        </fieldset>
+        </br>
+
+        </br>
+        <button>Submit</button>
+    </form>
+
+
+
+</body>
+
+</html>
