@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+</head>
+
+<body>
+    <form>
+        <h1>HIPAA Authorization for Use or Disclosure of Health Information</h1>
+        <p>This form is for use when such authorization is required and complies with the Health Insurance Portability
+            and Accountability Act of 1996 (HIPAA) Privacy Standards.
+        </p>
+
+        <label for="firstname">Patient First Name</label>
+        <input type="text" id="firstname" placeholder="First name" />
+
+        <label for="middlename">Patient Midddle Name</label>
+        <input type="text" id="middlename" placeholder="Middle name" />
+
+        <label for="lastname">Patient Last Name</label>
+        <input type="text" id="lastname" placeholder="Last name" />
+
+        <label for="preferredname">Patient Preferred Name</label>
+        <input type="text" id="preferredname" placeholder="Preferred name" />
+
+        <hr />
+        </br>
+
+        <label for="D.O.B">Date of Birth</label>
+        <input type="date" />
+
+        <label for="SSN">Social Security Number</label>
+        <input id="SSN" type="text" placeholder="_ _ _-_ _-_ _ _ _" />
+        <hr />
+
+        <h2>My Authorization</h2>
+        <p>I authorize the foloowing using or disclosing party:</p>
+        <input type="text" placeholder="Name of Dosclosing Party" />
+
+        <hr />
+
+        <h3>To use or disclose the following health information.</h3>
+
+        <label for="allhealth">All of my health information</label>
+        <input id="allhealth" type="checkbox" />
+
+        <label for="specifichealth">My health information relating to a specific treatment or condition:</label>
+        <input id="specifichealth" type="checkbox" />
+
+        <label for="specificPeriodhealth">My health information covering the period from</label>
+        <input id="specificPeriodhealth" type="checkbox" />
+
+        <label for="other">Other</label>
+        <input id="other" type="checkbox" />
+
+        <h1>The above party may disclose this health information to the foloowing recipient:</h1>
+        <label>Name (or title) and organization</label>
+        <input type="text" placeholder="Name" />
+        <hr />
+
+        <label for="address">Address</label>
+        <input type="text" id="address" placeholder="address" />
+
+        <label for="addressTwo">Address 2</label>
+        <input type="text" id="addressTwo" placeholder="address" />
+
+        <label for="city">City</label>
+        <input type="text" id="city" placeholder="city" />
+
+        <label for="state">State</label>
+        <input type="text" id="state" placeholder="state" />
+
+        <label for="zip">Zip</label>
+        <input type="zip" id="zip" placeholder="zip" />
+        <hr />
+        </br>
+
+        <label for="cellPhone">Cell Phone</label>
+        <input id="cellPhone" type="text" placeholder="(000) 000-0000" />
+
+        <label for="workPhone">Work Phone</label>
+        <input id="workPhone" type="text" placeholder="(000) 000-0000" />
+
+        <label for="emailAddress">Email Address</label>
+        <input id="emailAddress" type="text" placeholder="@" />
+        <hr />
+
+        <H2>The purpose of this authorization is (check all that apply):</H2>
+        <input type="checkbox" />
+        <label for="myRequest">At my request</label>
+        </br>
+
+        <input id="marketing" type="checkbox" />
+        <label for="marketing">To authorize the using or disclosing party to communicate with me for marketing purposes
+            when they receive payment from a third party to do so.</label>
+        </br>
+
+        <input id="paidFor" type="checkbox" />
+        <label for="paidFor">To authorize the using or disclosing party to sell my health information. I understand that
+            the seller will receive compensation for my health information and will stop any future sales if I revoke
+            this authorization.</label>
+        </br>
+
+        <input id="other" type="checkbox" />
+        <label for="other">Other</label>
+
+        <hr />
+        <label for="authorizationEnds">Authorization Ends</label>
+        <button>On a Specific Date</button>
+        <button>When an event occurs</button>
+        <hr />
+
+
+        <label for="Date">Date</label>
+        <input type="date" />
+
+        <h2>My Rights as a Patient</h2>
+        <p>I understand that I have the right to revoke this authorization, in writing, at any time, except where uses
+            or disclosures have already been made based upon my original permission. I may not be able to revoke this
+            authorization if its purpose was to obtain insurance. In order to revoke this authorization, I must do so in
+            writing and send it to the appropriate disclosing party. </br>
+            </br> I understand that uses and disclosures already made based upon my original permission cannot be taken
+            back.</br>
+            </br> I understand that it is possible that information used or disclosed with my permission may be
+            re-disclosed
+            by the recipient and is no longer protected by the HIPAA Privacy Standards.</br>
+            </br>I understand that treatment by any party may not be conditioned upon my signing of this authorization
+            (unless treatment is sought only to create health information for a third party or to take part in a
+            research study) and that I may have the right to refuse to sign this authorization.</br>
+            </br>I will receive a copy of this authorization after I have signed it. A copy of this authorization is as
+            valid
+            as the original.</p>
+
+        <label>Signature of Patient</label>
+        <canvas></canvas>
+
+        <label>Signature of Authorized Representative</label>
+        <canvas></canvas>
+        <hr />
+
+        <label for="date">Date</label>
+        <input type="date" />
+
+        <label>Name of Authorized Representative</label>
+        <input type="text" placeholder="First Name" />
+        <input type="text" placeholder="Last Name" />
+        <hr />
+
+        <label>Authority of representative to sign on behalf of the patient</label>
+        <button>Parent</button>
+        <button>Legal Guardian</button>
+        <button>Court Order</button>
+        <button>Other</button>
+
+    </form>
+</body>
+
+</html>
